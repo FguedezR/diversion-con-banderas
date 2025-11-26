@@ -8,3 +8,43 @@ body {
 h1 {
   color: #333;
 }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  width: 250px;
+}
+
+.info {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-country {
+  background-color: white;
+  padding: 10px;
+}
+
+.visible {
+  display: block;
+}
+
+.closed, .card {
+  cursor: pointer;
+}

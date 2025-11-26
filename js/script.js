@@ -64,12 +64,14 @@ getCountries().then(countries => {
             <section>
             `
         })
-        info.innerHTML = template
+        info.innerHTML = template;
     })
     info.addEventListener('click', (e) => {
         if(e.target.classList.contains('closed')) {
-            info.classList.remove
+            info.classList.remove('visible');
+
         }
     })
 })
+
 
